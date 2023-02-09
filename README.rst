@@ -174,10 +174,11 @@ as desired. The return type also needs to be registered with the
 
 History
 ~~~~~~~
-22.2.0
-``````
+23.1.0 (UNRELEASED)
+```````````````````
 * Added ``aiofiles.os.access``.
   `#146 <https://github.com/Tinche/aiofiles/pull/146>`_
+* Transition to ``asyncio.get_running_loop`` (vs ``asyncio.get_event_loop``) internally.
 
 22.1.0 (2022-09-04)
 ```````````````````
